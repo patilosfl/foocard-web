@@ -1,38 +1,100 @@
-.App {
-  text-align: center;
+#foocard-logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bold;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.register {
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 15px;
+    max-width: 900px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.menu-transit {
+    transition: height 0.5s;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.collapse:not(.show) {
+    display: block;
 }
 
-.App-link {
-  color: #61dafb;
+body {
+    /* background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF); */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
 }
+
+.btn-google {
+    color: white !important;
+    background-color: #ea4335;
+}
+
+.btn-facebook {
+    color: white !important;
+    background-color: #3b5998;
+}
+
+.user-info {
+    display: inline-block;
+    padding: 0 15px;
+    color: #fff;
+}
+
+.hospitals-list,
+.hospitals-list li {
+    display: block;
+}
+
+.hospitals-list li {
+    border: 1px solid #ccc;
+}
+
+.hospitals-list li span {
+    /* display: inline-block;
+  height: 60px;
+  min-width: 100px;
+  padding: 10px;
+  border-right: 1px solid #bbb;
+  background-color: #f1f1f1; */
+}
+
+.hospital-list .title {
+    display: block;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.head-row {
+    background: #e1d2d2;
+}
+.info-row {
+    border: 1px solid #ccc;
+    margin-top: 15px;
+}
+
+.info {
+    display: block;
+    font-weight: normal;
+    padding: 5px;
+    height: 100px;    
+}
+.info-row:nth-child(even) {
+    background: #f1f1f1 ;    
+}
+
+
+/*
+#2a7c31
+#819b1c
+#6ab04c
+#30336b
+#006266 Tulish Aqua
+*/
